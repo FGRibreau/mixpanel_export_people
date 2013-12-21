@@ -1,4 +1,4 @@
-Export Mixpanel people to CSV
+Export Mixpanel people properties to an Excel Compatible CSV
 ------------------
 
 A bookmarklet that exports an Excel compatible CSV of the first 1000 people (with all their properties) from `Mixpanel > People > Explore`.
@@ -20,7 +20,8 @@ Tested in Chrome 31+.
 ```
 
 ### Options
-If necessary you can change the `filterCol` function body to filter columns based on their names.
+
+- Change the `filterCol` function body to filter columns based on their names.
 
 ### Troubleshooting
 
