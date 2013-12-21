@@ -17,6 +17,7 @@ module.exports = function(grunt) {
 
     uglify: {
       options:{
+        banner:'javascript:',
         mangle: {
           except: ['mp']
         }

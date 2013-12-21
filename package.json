@@ -1,6 +1,6 @@
 {
   "name": "mixpanel_export_people",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Export Mixpanel people properties to an Excel Compatible CSV",
   "main": "index.js",
   "scripts": {
