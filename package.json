@@ -1,0 +1,33 @@
+{
+  "name": "mixpanel_export_people",
+  "version": "0.0.3",
+  "description": "Export Mixpanel people to CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FGRibreau/mixpanel_export_people.git"
+  },
+  "keywords": [
+    "mixpanel",
+    "csv"
+  ],
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FGRibreau/mixpanel_export_people/issues"
+  },
+  "dependencies": {
+    "grunt-cli": "~0.1.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-bump": "0.0.13",
+    "grunt-shell": "~0.6.1",
+    "grunt-contrib-jshint": "~0.7.2"
+  },
+  "devDependencies": {
+    "grunt-readme": "~0.4.5"
+  }
+}
