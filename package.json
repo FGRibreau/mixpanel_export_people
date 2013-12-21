@@ -1,6 +1,6 @@
 {
   "name": "mixpanel_export_people",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Export Mixpanel people to CSV",
   "main": "index.js",
   "scripts": {

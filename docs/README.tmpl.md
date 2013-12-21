@@ -20,7 +20,8 @@ Tested in Chrome 31+.
 ```
 
 ### Options
-If necessary you can change the `filterCol` function body to filter columns based on their names.
+
+- Change the `filterCol` function body to filter columns based on their names.
 
 ### Troubleshooting
 
