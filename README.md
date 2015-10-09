@@ -1,7 +1,7 @@
 Export Mixpanel people properties to an Excel Compatible CSV
 ------------------
 
-A bookmarklet that exports an Excel compatible CSV of the first 1000 people (with all their properties) from `Mixpanel > People > Explore`.
+A bookmarklet that exports an Excel compatible CSV of the first 2000 people (with all their properties) from `Mixpanel > People > Explore`.
 
 - Create a favorite
 - Change the favorite URL with `bookmarklet.js` content
