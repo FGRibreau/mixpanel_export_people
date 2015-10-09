@@ -11,7 +11,20 @@
   };
 
   var getData = function(){
-    var json = mp.report.explore.models.records.toJSON();
+    var records = mp.report.explore.models.records;
+
+    var currentLength = records.length;
+
+    while (true) {
+      records.load_more();
+      if (records.length == currentLength){
+        break;
+      } else {
+        currentLength = records.length;
+      }
+    }
+
+    var json = records.toJSON();
 
     return _.pluck(json, 'properties').map(function(model, i){
       model.$id = json[i].id;
